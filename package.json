@@ -1,0 +1,19 @@
+{
+  "name": "stock-api-client",
+  "version": "0.0.1",
+  "author": {
+    "email": "anfho93@gmail.com",
+    "name": "Andres Felipe Herrera Ospina"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build-start": "docker-compose up -d",
+    "stop": "docker-compose down",
+    "test": "jest --detectOpenHandles "
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  }
+}

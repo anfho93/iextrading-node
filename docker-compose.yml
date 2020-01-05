@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+  stock-client:
+    build: .
+    image: stock-client:latest
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=development
+      - PORT=8000
